@@ -19,9 +19,8 @@ Here Great-circle distance is used to calculate the distance.
 ## Tests
 Testing is done with Python's [unittest](https://docs.python.org/3/library/unittest.html#module-unittest) testing framework. It can be run with the following command: >     $ python test.py
 
-* 2] Proudest Achievement
-
+## Proudest Achievement
 What's your proudest achievement? It can be a personal project or something you've worked on professionally. Just a short paragraph is fine, but I'd love to know why you're proud of it, what impact it had (If any) and any insights you took from it.
 
-I believe that my biggest achievement is yet to come, however if I need to take into the consideration of my professional career till date, 
-At my last position, I oversaw the implementation of a new software system, which is now used by over 50 employees. I developed a customized training program, worked one-on-one with about one-quarter of the employees and introduced an incentive program to ensure that they stay current with the software. This allowed me to practice planning a large-scale project and motivating a sizable group of employees.
+ANSWER: I believe that my biggest achievement is yet to come, however if I need to take into the consideration of my professional career till date, 
+At my last position, I implemented a new software system, which is now used by over 50 employees. I developed a customized training program, worked one-on-one with about one-quarter of the employees and introduced an incentive program to ensure that they stay current with the software. This allowed me to practice planning a large-scale project and motivating a sizable group of employees.The lesson I learnt from project was "be patient and prepared to problem solve".
