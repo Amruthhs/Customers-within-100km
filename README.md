@@ -9,12 +9,10 @@ Here Great-circle distance is used to calculate the distance.
 ## Running the application 
 
 * Clone the repository
->
-    $ git clone https://github.com/Amruthhs/Customers-within-our-100km.git
+>     $ git clone https://github.com/Amruthhs/Customers-within-our-100km.git
 
 * Run the app
->
-    $ python CustomerRecords_Great_Circle.py
+>     $ python CustomerRecords_Great_Circle.py
 
 ## Tests
 Testing is done with Python's [unit test](https://docs.python.org/3/library/unittest.html#module-unittest) testing framework. It can be run with the following command:
