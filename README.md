@@ -1,5 +1,5 @@
 # Customers-within-100km
-Program to invite any customer within 100km of our office for some food and drinks on us
+Program to invite any customer within 100km of our office for some food and drinks
 
 Program is written in Python 3
 
@@ -17,9 +17,9 @@ Here Great-circle distance is used to calculate the distance.
     $ python CustomerRecords_Great_Circle.py
 
 ## Tests
-Testing is done with Python's [unittest](https://docs.python.org/3/library/unittest.html#module-unittest) testing framework. It can be run with the following command: $ python test.py
+Testing is done with Python's [unittest](https://docs.python.org/3/library/unittest.html#module-unittest) testing framework. It can be run with the following command: >     $ python test.py
 
-** 2] Proudest Achievement
+* 2] Proudest Achievement
 
 What's your proudest achievement? It can be a personal project or something you've worked on professionally. Just a short paragraph is fine, but I'd love to know why you're proud of it, what impact it had (If any) and any insights you took from it.
 
