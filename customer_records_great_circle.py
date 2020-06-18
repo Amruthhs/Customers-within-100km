@@ -1,7 +1,7 @@
 import os
 from math import radians, degrees, sin, cos, asin, acos, sqrt
-import json
 from operator import itemgetter
+import readfile_input
 
 
 class CustomerRecords:
@@ -30,37 +30,14 @@ class CustomerRecords:
         acos(sin(lat1) * sin(lat2) + cos(lat1) * cos(lat2) * cos(lon1 - lon2))
         )
 
-    def read_file(self):
-        """
-        Return records with valid distances.
-        """
-
-        data = []
-        try:
-            with open(self.input_file) as f:
-                for line in f:
-                    data_line = json.loads(line)
-                    distance = self.get_distance(self.hq_latitude, self.hq_longitude, float(
-                        data_line['latitude']), float(data_line['longitude']))
-                    if distance < self.accepted_distance:
-                        data.append(data_line)
-        except FileNotFoundError:
-            raise FileNotFoundError(self.input_file, "cannot be found")
-        return data
-
     def get_closest_customers(self):
         """
         Sort and output valid distances.
         """
 
-        newlist = sorted(self.read_file(), key=itemgetter('user_id'))
+        newlist = sorted(readfile_input.read_file(self), key=itemgetter('user_id'))
         results = []
         for i in newlist:
             results.append(i['name'])
             print(i['name'])
         return results
-
-
-if __name__ == "__main__":
-    cr = CustomerRecords('customer_list.txt', 100000, 53.339428, -6.257664)
-    cr.get_closest_customers()

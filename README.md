@@ -16,7 +16,7 @@ Here Great-circle distance is used to calculate the distance.
 
 ## Tests
 Testing is done with Python's [unit test](https://docs.python.org/3/library/unittest.html#module-unittest) testing framework. It can be run with the following command:
->     $ python test.py
+>     $ python main.py
 
 ## Proudest Achievement
 What's your proudest achievement? It can be a personal project or something you've worked on professionally. Just a short paragraph is fine, but I'd love to know why you're proud of it, what impact it had (If any), and any insights you took from it.
